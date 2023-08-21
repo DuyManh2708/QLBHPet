@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<% include ../layout/head %>
+
+    <body>
+        <h2>Liên hệ và góp ý</h2>
+        <div id="contact-form" class="">
+            <div class="form-group">
+                <label> Fullname </label>
+                <input class="form-control" type="text" id="fullname" />
+            </div>
+            <div class="form-group">
+                <label> Phone </label>
+                <input class="form-control" type="text" id="phone" />
+            </div>
+            <div class="form-group">
+                <label> Email </label>
+                <input class="form-control" type="email" id="email" />
+            </div>
+            <div class="form-group">
+                <label> Address </label>
+                <textarea class="form-control" id="address">
+
+                </textarea>
+            </div>
+            <div class="form-group">
+                <label> Title </label>
+                <input class="form-control" type="text" id="title" />
+            </div>
+            <div class="form-group">
+                <label> Content </label>
+                <textarea class="form-control" id="content" rows="10">
+
+                </textarea>
+            </div>
+            <button class="btn btn-primary mt-3" id="btn-send">Send</button>
+        </div>
+
+        <% include ../layout/footer %>
+            <script src="/javascripts/contacts.js"></script>
+    </body>
+
+</html>

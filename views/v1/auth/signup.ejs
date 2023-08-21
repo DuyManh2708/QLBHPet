@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<% include ../layout/head %>
+
+    <body>
+        <h2>Register</h2>
+        <div id="signup-form" class="">
+            <div class="form-group">
+                <label> Username </label>
+                <input class="form-control" type="text" id="username" />
+            </div>
+            <div class="form-group">
+                <label> Password </label>
+                <input class="form-control" type="password" id="password" />
+            </div>
+            <div class="form-group">
+                <label> rePassword </label>
+                <input class="form-control" type="password" id="repassword" />
+            </div>
+            <div class="form-group">
+                <label> Email </label>
+                <input class="form-control" type="email" id="email" />
+            </div>
+            <div class="form-group">
+                <label> Phone </label>
+                <input class="form-control" type="text" id="phone" />
+            </div>
+            <button class="btn btn-primary mt-3" id="btn-register-submit">Submit</button>
+        </div>
+
+        <% include ../layout/footer %>
+            <script src="/javascripts/auth.js"></script>
+    </body>
+
+</html>
